@@ -9,8 +9,8 @@ This is not a standalone app. It requires Muzei app to be installed.
 
 https://play.google.com/store/apps/details?id=net.nurik.roman.muzei
 
-[Muzei]: http://www.muzei.co/
-[Muzei API]: http://api.muzei.co/
+[Muzei Website](http://www.muzei.co/)
+[Muzei API](http://api.muzei.co/)
 
 Changelog
 ---------
