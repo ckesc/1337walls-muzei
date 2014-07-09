@@ -30,6 +30,7 @@ public class MainActivity extends RemoteMuzeiArtSource {
 
         List<UserCommand> commands = new ArrayList<UserCommand>();
         commands.add(new UserCommand(Config.COMMAND_ID_SHARE, getString(R.string.share_artwork)));
+        commands.add(new UserCommand(BUILTIN_COMMAND_ID_NEXT_ARTWORK));
         setUserCommands(commands);
     }
 
