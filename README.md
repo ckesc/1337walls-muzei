@@ -10,7 +10,9 @@ This is not a standalone app. It requires Muzei app to be installed.
 https://play.google.com/store/apps/details?id=net.nurik.roman.muzei
 
 [Muzei Website](http://www.muzei.co/)
+
 [Muzei API](http://api.muzei.co/)
+
 
 Changelog
 ---------
@@ -19,8 +21,4 @@ Changelog
 
 Released on July 9, 2014. Initial release.
 
-## Download
-
-[Latest APK / Dropbox](https://www.dropbox.com/s/gh8j2y6lgdjxoz7/1337walls-debug.apk)
-
-[Release 1.0 / GitHub](https://github.com/int9h/1337walls-muzei/releases/tag/1.0)
+[Download as APK](https://github.com/int9h/1337walls-muzei/releases/tag/1.0)
