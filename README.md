@@ -17,6 +17,15 @@ https://play.google.com/store/apps/details?id=net.nurik.roman.muzei
 Changelog
 ---------
 
+### Version 1.1
+
+Released on July 10, 2014. 
+
+Add "Share artwork"
+
+[Download as APK]((https://github.com/int9h/1337walls-muzei/releases/tag/1.1)
+
+
 ### Version 1.0
 
 Released on July 9, 2014. Initial release.
