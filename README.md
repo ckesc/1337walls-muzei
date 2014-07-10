@@ -23,7 +23,7 @@ Released on July 10, 2014.
 
 Add "Share artwork"
 
-[Download as APK]((https://github.com/int9h/1337walls-muzei/releases/tag/1.1)
+[Download as APK](https://github.com/int9h/1337walls-muzei/releases/tag/1.1)
 
 
 ### Version 1.0
