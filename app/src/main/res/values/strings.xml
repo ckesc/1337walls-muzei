@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">1337walls</string>
+    <string name="source_name">1337walls</string>
+    <string name="source_description">Wallpapers from 1337walls.w8l.org</string>
+    <string name="share_artwork">Share artwork</string>
+    <string name="save_artwork">Save artwork</string>
+</resources>
