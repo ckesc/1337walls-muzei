@@ -8,7 +8,7 @@ public class Config {
     /**
      * rotate every 3 hours
      */
-   public static final int ROTATE_TIME_MILLIS = 3*60*60*1000; 
+   public static final int ROTATE_TIME_MILLIS = 3*60*60*1000;
 
    /**
     * API URL

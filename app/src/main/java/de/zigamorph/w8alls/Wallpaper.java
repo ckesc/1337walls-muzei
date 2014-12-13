@@ -2,6 +2,7 @@ package de.zigamorph.w8alls;
 
 import android.content.Intent;
 import android.net.Uri;
+
 import com.google.android.apps.muzei.api.Artwork;
 import java.io.IOException;
 import java.util.Random;
@@ -20,10 +21,11 @@ public class Wallpaper extends Artwork.Builder {
     /**
      * fetch a wallpaper
      *
+     * @param isRandom boolean
      * @return Artwork
      */
-    public static Artwork fetch() {
-        
+    public static Artwork fetch(boolean isRandom) {
+
         JSONArray json = null;
         try {
             json = Remote.getInstance().read();
@@ -33,8 +35,13 @@ public class Wallpaper extends Artwork.Builder {
             Logger.getLogger(MainActivity.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        Random random = new Random();
-        Integer index = random.nextInt(json.length());
+        Integer index;
+        if(isRandom){
+            Random random = new Random();
+            index = random.nextInt(json.length());
+        } else {
+            index = 0;
+        }
 
         Wallpaper wallpaper = new Wallpaper();
 
