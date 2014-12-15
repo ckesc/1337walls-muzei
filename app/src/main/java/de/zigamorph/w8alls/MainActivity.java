@@ -79,8 +79,6 @@ public class MainActivity extends RemoteMuzeiArtSource {
         }
 
         scheduleUpdate(System.currentTimeMillis() + intervalTimeMilis);
-
-        //scheduleUpdate(System.currentTimeMillis() + Config.ROTATE_TIME_MILLIS);
     }
 
     @Override
@@ -113,6 +111,11 @@ public class MainActivity extends RemoteMuzeiArtSource {
     }
 
 
+    /**
+     * is connected to wifi
+     *
+     * @return boolean
+     */
     private boolean isConnectedWifi() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo info = cm.getActiveNetworkInfo();
