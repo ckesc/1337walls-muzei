@@ -13,7 +13,7 @@ public class Config {
    /**
     * API URL
     */
-   public static final String APIURL = "http://1337walls.w8l.org/api/";
+   public static final String APIURL = "http://1337walls.w8l.org/api/?client=de.zigamorph.w8alls";
 
    public static final String TAG = "1337walls";
    public static final String SOURCE_NAME = "OneThousandThreeHundredThirtySevenWallsArtSource";
