@@ -6,6 +6,8 @@ android {
 
     defaultConfig {
         applicationId "de.zigamorph.w8alls"
+        minSdkVersion 14
+        targetSdkVersion 21
     }
 
     buildTypes {
@@ -19,5 +21,6 @@ android {
 
 dependencies {
     compile 'com.google.android.apps.muzei:muzei-api:2.0'
+    //noinspection GroovyAssignabilityCheck
     compile files('libs/*.jar')
 }
