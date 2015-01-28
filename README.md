@@ -8,3 +8,8 @@
 
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ckesc/1337walls-muzei?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+<a href="https://play.google.com/store/apps/details?id=de.zigamorph.w8alls">
+  <img alt="Get it on Google Play"
+       src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+</a>
