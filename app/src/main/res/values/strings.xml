@@ -14,8 +14,8 @@
 
     <string name="pref_cyclemode_key" translatable="false">pref_cyclemode</string>
     <string name="pref_cyclemode_title">Random wallpaper</string>
-    <string name="pref_cyclemode_summary__true">Shows a random wallpaper from 1337walls.w8l.org for a adjustable period of time.</string>
-    <string name="pref_cyclemode_summary__false">Shows the latest wallpaper from 1337walls.w8l.org (Every 3 hours)</string>
+    <string name="pref_cyclemode_summary__true">Shows a random wallpaper for a adjustable period of time.</string>
+    <string name="pref_cyclemode_summary__false">Shows the latest wallpaper (Every 3 hours)</string>
 
     <string name="pref_intervalpicker_key" translatable="false">pref_intervalpicker</string>
     <string name="pref_intervalpicker_title">Update interval</string>
@@ -26,5 +26,5 @@
     <string name="pref_wifiswitch_summary">Updating on Wi-Fi helps to reduce mobile data usage.</string>
 
     <string name="pref_about_key" translatable="false">pref_about</string>
-    <string name="pref_about_summary">Manuel Wildauer \n@int9h</string>
+    <string name="pref_about_summary">Manuel Wildauer \n@int9h\nAll wallpapers from 1337walls.w8l.org</string>
 </resources>
