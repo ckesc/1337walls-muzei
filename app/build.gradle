@@ -19,8 +19,16 @@ android {
     }
 }
 
+idea {
+    module {
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}
+
 dependencies {
     compile 'com.google.android.apps.muzei:muzei-api:2.0'
+    compile 'com.android.support:appcompat-v7:21.0.3'
     //noinspection GroovyAssignabilityCheck
     compile files('libs/*.jar')
 }

@@ -1,10 +1,39 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/prefs_header_general">
-        <SwitchPreference android:key="@string/pref_cyclemode_key" android:title="@string/pref_cyclemode_title" android:summaryOn="@string/pref_cyclemode_summary__true" android:summaryOff="@string/pref_cyclemode_summary__false" android:defaultValue="true" android:persistent="true"/>
-        <ListPreference android:key="@string/pref_intervalpicker_key" android:title="@string/pref_intervalpicker_title" android:summary="%s" android:entries="@array/list_intervalpicker_entries" android:entryValues="@array/list_intervalpicker_values" android:defaultValue="@string/pref_intervalpicker_defaultvalue" android:dependency="@string/pref_cyclemode_key" android:persistent="true"/>
-        <SwitchPreference android:key="@string/pref_wifiswitch_key" android:title="@string/pref_wifiswitch_title" android:summary="@string/pref_wifiswitch_summary" android:defaultValue="false" android:persistent="true"/>
+        <de.zigamorph.w8alls.SwitchCompatPreference
+            android:defaultValue="true"
+            android:key="@string/pref_cyclemode_key"
+            android:persistent="true"
+            android:summaryOff="@string/pref_cyclemode_summary__false"
+            android:summaryOn="@string/pref_cyclemode_summary__true"
+            android:title="@string/pref_cyclemode_title"
+            android:widgetLayout="@layout/pref_switch" />
+        <ListPreference
+            android:defaultValue="@string/pref_intervalpicker_defaultvalue"
+            android:dependency="@string/pref_cyclemode_key"
+            android:entries="@array/list_intervalpicker_entries"
+            android:entryValues="@array/list_intervalpicker_values"
+            android:key="@string/pref_intervalpicker_key"
+            android:persistent="true"
+            android:summary="%s"
+            android:title="@string/pref_intervalpicker_title" />
+        <de.zigamorph.w8alls.SwitchCompatPreference
+            android:defaultValue="false"
+            android:key="@string/pref_wifiswitch_key"
+            android:persistent="true"
+            android:summary="@string/pref_wifiswitch_summary"
+            android:title="@string/pref_wifiswitch_title"
+            android:widgetLayout="@layout/pref_switch" />
     </PreferenceCategory>
-    <PreferenceCategory android:persistent="false" android:title="@string/prefs_header_about">
-        <Preference android:key="@string/pref_about_key" android:background="@null" android:enabled="false" android:selectable="false" android:summary="@string/pref_about_summary" android:title="@string/app_name"/>
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/prefs_header_about">
+        <Preference
+            android:background="@null"
+            android:enabled="false"
+            android:key="@string/pref_about_key"
+            android:selectable="false"
+            android:summary="@string/pref_about_summary"
+            android:title="@string/app_name" />
     </PreferenceCategory>
 </PreferenceScreen>
